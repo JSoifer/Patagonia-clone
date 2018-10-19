@@ -6,8 +6,7 @@ import { HomeViewComponent } from './home-view/home-view.component';
 import { HeaderComponent } from './header/header.component';
 import { HeaderBottomComponent } from './header-bottom/header-bottom.component';
 import { FooterComponent } from './footer/footer.component';
-import { HeroComponent } from './hero/hero.component';
-import { LowerHeroGridComponent } from './lower-hero-grid/lower-hero-grid.component';
+
 
 @NgModule({
   declarations: [
@@ -15,9 +14,9 @@ import { LowerHeroGridComponent } from './lower-hero-grid/lower-hero-grid.compon
     HomeViewComponent,
     HeaderComponent,
     HeaderBottomComponent,
-    FooterComponent,
-    HeroComponent,
-    LowerHeroGridComponent
+    FooterComponent
+
+
   ],
   imports: [
     BrowserModule
