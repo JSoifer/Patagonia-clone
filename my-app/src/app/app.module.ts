@@ -6,6 +6,11 @@ import { HomeViewComponent } from './home-view/home-view.component';
 import { HeaderComponent } from './header/header.component';
 import { HeaderBottomComponent } from './header-bottom/header-bottom.component';
 import { FooterComponent } from './footer/footer.component';
+import { LowerHeroGridComponent } from './lower-hero-grid/lower-hero-grid.component';
+import { HeroComponent } from './hero/hero.component';
+import { EventsComponent } from './events/events.component';
+import { FeaturedStoryComponent } from './featured-story/featured-story.component';
+import { InstagramComponent } from './instagram/instagram.component';
 
 
 @NgModule({
@@ -14,7 +19,12 @@ import { FooterComponent } from './footer/footer.component';
     HomeViewComponent,
     HeaderComponent,
     HeaderBottomComponent,
-    FooterComponent
+    FooterComponent,
+    LowerHeroGridComponent,
+    HeroComponent,
+    EventsComponent,
+    FeaturedStoryComponent,
+    InstagramComponent
 
 
   ],
