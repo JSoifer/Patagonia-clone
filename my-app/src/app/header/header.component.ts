@@ -6,7 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  
+
+  link = 'logo';
+  link2 = 'patagonia provisions';
+  link3 = 'action works';
+  link4 = 'blog';
+
 
   constructor() { }
 

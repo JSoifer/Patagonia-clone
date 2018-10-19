@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderBottomComponent implements OnInit {
 
+  logoWW = 'Worn Wear';
+  shopLink = 'Shop';
+  infoLink = 'Inside Worn Wear';
+  search = 'Search bar';
+  cart = 'Cart';
+
   constructor() { }
 
   ngOnInit() {
