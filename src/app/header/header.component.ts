@@ -11,7 +11,11 @@ export class HeaderComponent implements OnInit {
   link2 = 'patagonia provisions';
   link3 = 'action works';
   link4 = 'blog';
-
+  logoWW = 'Worn Wear';
+  shopLink = 'Shop';
+  infoLink = 'Inside Worn Wear';
+  search = 'Search bar';
+  cart = 'Cart';
 
   constructor() { }
 
