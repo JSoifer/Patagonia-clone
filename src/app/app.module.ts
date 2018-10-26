@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LowerHeroGridComponent } from './lower-hero-grid/lower-hero-grid.component';
-
+import { InfoTile } from '././models/info-tile.model';
 
 @NgModule({
   declarations: [

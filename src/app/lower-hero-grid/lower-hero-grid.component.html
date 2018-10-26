@@ -1,11 +1,11 @@
-<div class="lower_hero_grid">
+<!-- <div class="lower_hero_grid">
   <div class="tradeImg">
     <img src="../assets/trade-it.jpg" alt="">
   </div>
   <div class="tradeText">
     <img src="../assets/block-TradeItIn.png" alt="Trade It In">
     <p>Trade in your used Patagonia gear at any Patagonia retail location and receive credit to put toward another new or used garment.</p>
-    <button type="button" name="button">Find a retail location</button>
+    <a href="https://www.patagonia.com/store-locator/?patagoniastore=1">Find a Store</a>
   </div>
   <div class="shopText">
     <img src="../assets/block-BuyItUsed.png" alt="">
@@ -23,4 +23,7 @@
     <p>One of the most responsible things we can do as a company is to make high-quality stuff that lasts for years and can be repaired, so you don’t have to buy more of it.</p>
     <button type="button" name="button">View Repair Guides</button>
   </div>
+</div> -->
+<div *ngFor "let tile of childInfoTiles">
+  <img src= {{tile.imageURL}} />
 </div>

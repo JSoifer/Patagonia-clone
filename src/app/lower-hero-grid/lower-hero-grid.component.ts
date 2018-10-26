@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+
 
 @Component({
   selector: 'app-lower-hero-grid',
@@ -6,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lower-hero-grid.component.scss']
 })
 export class LowerHeroGridComponent implements OnInit {
+@Input() childInfoTiles: InfoTile[];
 
   constructor() { }
+
 
   ngOnInit() {
   }
