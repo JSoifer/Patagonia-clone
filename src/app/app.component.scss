@@ -1,3 +1,16 @@
-img {
-  max-width: 99%;
+
+#upper-nav {
+  display: flex;
+  justify-content: space-between;
+  li {
+    list-style: none;
+  }
+}
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#ww-logo-top {
+  width: 25vw;
 }
