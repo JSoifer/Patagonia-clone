@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-
+import { InfoTile } from './../models/info-tile.model';
 
 @Component({
   selector: 'app-lower-hero-grid',
