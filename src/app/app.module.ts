@@ -7,6 +7,7 @@ import { LowerHeroGridComponent } from './lower-hero-grid/lower-hero-grid.compon
 import { ShopComponent } from './shop/shop.component';
 import { routing } from './app.routing';
 import { SplashComponent } from './splash/splash.component';
+import { AboutComponent } from './about/about.component';
 // import { InfoTile } from '././models/info-tile.model';
 
 @NgModule({
@@ -16,6 +17,7 @@ import { SplashComponent } from './splash/splash.component';
     LowerHeroGridComponent,
     ShopComponent,
     SplashComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,

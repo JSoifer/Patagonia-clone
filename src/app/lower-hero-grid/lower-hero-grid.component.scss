@@ -1,26 +1,38 @@
 .lower_hero_grid {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 200px 200px 200px;
+  grid-template-rows: auto;
+  width: 100%;
 }
-.tradeImg {
+#tradeImg {
   grid-area: 1 / 1 / span 1 / span 1;
 }
-.tradeText {
+#tradeText {
   grid-area: 1 / 2 / span 1 / span 1;
 }
-.shopImg {
-  grid-area: 2 / 1 / span 1 / span 1;
+#shopImg {
+  grid-area: 2 / 2/ span 1 / span 1;
 }
-.shopText {
-  grid-area: 2 / 2 / span 1 / span 1;
+#shopText {
+  grid-area: 2 / 1/ span 1 / span 1;
 }
-.repairImg {
+#repairImg {
   grid-area: 3 / 1 / span 1 / span 1;
   img {
     width: 50vw;
   }
 }
-.repairText {
+#repairText {
   grid-area: 3 / 2 / span 1 / span 1;
+}
+.grid-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vw;
+} img {
+  width: 40%;
+  p {
+
+  }
 }

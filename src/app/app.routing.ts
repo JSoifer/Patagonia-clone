@@ -2,7 +2,7 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { SplashComponent } from './splash/splash.component';
 import { ShopComponent } from './shop/shop.component';
-
+import { AboutComponent } from './about/about.component'
 
 const appRoutes: Routes = [
   {
@@ -12,6 +12,10 @@ const appRoutes: Routes = [
   {
     path: 'shop',
     component: ShopComponent
+  },
+  {
+    path: 'about',
+    component: AboutComponent
   }
 
 ];
