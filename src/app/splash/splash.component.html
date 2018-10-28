@@ -14,9 +14,26 @@
   <p>The single best thing we can do for the planet is keep our gear in use longer and cut down on consumption.</p>
 </div>
 
+<div *ngFor="let tile of childInfoTiles " class="panel panel-default">
+  <div class="panel-body">
+    <span>{{tile.imgUrl}}</span>
+  </div>
+</div>
+
 <!-- <app-lower-hero-grid [childInfoTiles]=masterInfoTiles></app-lower-hero-grid> -->
-<app-lower-hero-grid></app-lower-hero-grid>
-<br>
+<!-- <app-lower-hero-grid></app-lower-hero-grid> -->
+<div *ngFor="let tile of childInfoTiles ">
+  <div>
+    <img src="{{tile.imgURL}}" alt="">
+  </div>
+  <div class="">
+    <img src="{{tile.contentHead}}" alt="">
+    <p>{{tile.content}}</p>
+    <a href="{{tile.link}}">Link</a>
+  </div>
+</div>
+
+
 
 <div class="events_section">
   <div class="text banner">
