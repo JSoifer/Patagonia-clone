@@ -8,6 +8,7 @@ import { ShopComponent } from './shop/shop.component';
 import { routing } from './app.routing';
 import { SplashComponent } from './splash/splash.component';
 import { AboutComponent } from './about/about.component';
+import { MensComponent } from './shop/mens/mens.component';
 // import { InfoTile } from '././models/info-tile.model';
 
 @NgModule({
@@ -18,6 +19,7 @@ import { AboutComponent } from './about/about.component';
     ShopComponent,
     SplashComponent,
     AboutComponent,
+    MensComponent,
   ],
   imports: [
     BrowserModule,

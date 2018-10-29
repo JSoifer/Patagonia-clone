@@ -1,0 +1,15 @@
+.departments {
+  a.mens {
+    background-image: url(/assets/cat-mens.jpg);
+  }
+  a.womens {
+    background-image: linear-gradient(to bottom, rgba(77, 37,2,0.3) 0%, rgba(77, 37, 2, 0.3) 100%), url(/assets/cat-womens.jpg);
+  }
+  a.kids {
+    background-image: linear-gradient(to bottom, rgba(77, 37,2,0.3) 0%, rgba(77, 37, 2, 0.3) 100%), url(/assets/cat-kids-and-baby.jpg);
+  }
+  a.gear {
+    background-image: linear-gradient(to bottom, rgba(77, 37,2,0.3) 0%, rgba(77, 37, 2, 0.3) 100%), url(/assets/cat-gear.jpg);
+  }
+
+}

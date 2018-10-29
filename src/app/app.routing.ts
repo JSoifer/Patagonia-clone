@@ -4,6 +4,7 @@ import { SplashComponent } from './splash/splash.component';
 import { ShopComponent } from './shop/shop.component';
 import { AboutComponent } from './about/about.component';
 import { LowerHeroGridComponent } from './lower-hero-grid/lower-hero-grid.component';
+import { MensComponent } from './shop/mens/mens.component';
 
 const appRoutes: Routes = [
   {
@@ -19,8 +20,8 @@ const appRoutes: Routes = [
     component: AboutComponent
   },
   {
-    path: 'splash',
-    component: LowerHeroGridComponent
+    path: 'mens',
+    component: MensComponent
   }
 
 ];
